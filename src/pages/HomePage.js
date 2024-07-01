@@ -203,6 +203,7 @@ export default function Home() {
           </ul>
           <a className="projectCode" href="https://github.com/mohamed-ashraf7106/portfolio" target="_blank">Project Code</a>
         </div>
+          <a className="resume" href="https://drive.google.com/file/d/1kjLsL1t5Aqgnb9YLqdXh3GlBy_sx2iRk/view?usp=sharing" target="_blank">Resume</a>
       </div>
       <div className="contacthome" style={{background:"#222"}}>
       <Contact></Contact>

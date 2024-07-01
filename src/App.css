@@ -195,3 +195,14 @@ ul.tech li{
     max-width: 100%;
   }
 }
+.resume{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  width: fit-content;
+  margin: 0px auto;
+  background-color: rgb(194, 181, 181);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+}
