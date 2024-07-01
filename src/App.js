@@ -19,8 +19,8 @@ function App() {
       </nav>
     </header>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" component={<Home />} />
+        <Route path="/contact" component={<Contact />} />
       </Routes>
     </>
   );
