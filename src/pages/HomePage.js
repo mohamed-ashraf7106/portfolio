@@ -55,6 +55,10 @@ export default function Home() {
           <img src={require("../assets/css.png")} alt="error loading picture" />
         </li>
         <li>
+          <h3>Tailwind</h3>
+          <img src={require("../assets/tailwind.png")} alt="error loading picture" />
+        </li>
+        <li>
           <h3>JavaScript</h3>
           <img src={require("../assets/js.png")} alt="error loading picture" />
         </li>
@@ -115,9 +119,9 @@ export default function Home() {
           <a className="projectCode" href="https://github.com/mohamed-ashraf7106/Game" target="_blank">Project Code</a>
         </div>
         <div className="project">
-          <h3>Loan form</h3>
-          <p>Its a loan form using react</p>
-          <img src={require("../assets/loan.png")} />
+          <h3>Socialmedia app</h3>
+          <p>Its an Socialmedia site with a shorts page</p>
+          <img src={require("../assets/social.png")} />
           <h3>Used</h3>
           <ul
             className="tech"
@@ -129,14 +133,14 @@ export default function Home() {
               <img src={require("../assets/html.png")} />
             </li>
             <li>
-              <img src={require("../assets/css.png")} />
+              <img src={require("../assets/tailwind.png")} />
             </li>
             <li>
               <img src={require("../assets/react.png")} />
             </li>
           </ul>
-          <a className="projectDeploy" href="https://mohamed-ashraf7106.github.io/react-loan" target="_blank">Project </a>
-          <a className="projectCode" href="https://github.com/mohamed-ashraf7106/react-loan" target="_blank">Project Code</a>
+          <a className="projectDeploy" href="https://mohamed-ashraf7106.github.io/socialapp" target="_blank">Project </a>
+          <a className="projectCode" href="https://github.com/mohamed-ashraf7106/socialapp" target="_blank">Project Code</a>
         </div>
         <div className="project">
           <h3>E-commerce site</h3>
@@ -161,6 +165,30 @@ export default function Home() {
           </ul>
           <a className="projectDeploy" href="https://mohamed-ashraf7106.github.io/e-commerce" target="_blank">Project </a>
           <a className="projectCode" href="https://github.com/mohamed-ashraf7106/e-commerce" target="_blank">Project Code</a>
+        </div>
+        <div className="project">
+          <h3>Loan form</h3>
+          <p>Its a loan form using react</p>
+          <img src={require("../assets/loan.png")} />
+          <h3>Used</h3>
+          <ul
+            className="tech"
+            style={{
+              display: "flex",
+            }}
+          >
+            <li>
+              <img src={require("../assets/html.png")} />
+            </li>
+            <li>
+              <img src={require("../assets/css.png")} />
+            </li>
+            <li>
+              <img src={require("../assets/react.png")} />
+            </li>
+          </ul>
+          <a className="projectDeploy" href="https://mohamed-ashraf7106.github.io/react-loan" target="_blank">Project </a>
+          <a className="projectCode" href="https://github.com/mohamed-ashraf7106/react-loan" target="_blank">Project Code</a>
         </div>
         <div className="project">
           <h3>Simple site</h3>
