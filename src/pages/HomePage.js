@@ -231,7 +231,7 @@ export default function Home() {
           </ul>
           <a className="projectCode" href="https://github.com/mohamed-ashraf7106/portfolio" target="_blank">Project Code</a>
         </div>
-          <a className="resume" href="https://drive.google.com/file/d/1kjLsL1t5Aqgnb9YLqdXh3GlBy_sx2iRk/view?usp=sharing" target="_blank">Resume</a>
+          <a className="resume" href="https://drive.google.com/file/d/1ZV_Qn4c4rD9J2VN-9yV5Pd_OC7F6paLP/view?usp=drive_link" target="_blank">Resume</a>
       </div>
       <div className="contacthome" style={{background:"#222"}}>
       <Contact></Contact>
