@@ -1,4 +1,4 @@
-import Contact from "./ContactPage"
+import Contact from "./ContactPage";
 export default function Home() {
   return (
     <>
@@ -56,7 +56,10 @@ export default function Home() {
         </li>
         <li>
           <h3>Tailwind</h3>
-          <img src={require("../assets/tailwind.png")} alt="error loading picture" />
+          <img
+            src={require("../assets/tailwind.png")}
+            alt="error loading picture"
+          />
         </li>
         <li>
           <h3>JavaScript</h3>
@@ -66,6 +69,13 @@ export default function Home() {
           <h3>React</h3>
           <img
             src={require("../assets/react.png")}
+            alt="error loading picture"
+          />
+        </li>
+        <li>
+          <h3>react-redux</h3>
+          <img
+            src={require("../assets/redux.png")}
             alt="error loading picture"
           />
         </li>
@@ -115,32 +125,20 @@ export default function Home() {
               <img src={require("../assets/js.png")} />
             </li>
           </ul>
-          <a className="projectDeploy" href="https://mohamed-ashraf7106.github.io/Game" target="_blank">Project </a>
-          <a className="projectCode" href="https://github.com/mohamed-ashraf7106/Game" target="_blank">Project Code</a>
-        </div>
-        <div className="project">
-          <h3>Socialmedia app</h3>
-          <p>Its an Socialmedia site with a shorts page</p>
-          <img src={require("../assets/social.png")} />
-          <h3>Used</h3>
-          <ul
-            className="tech"
-            style={{
-              display: "flex",
-            }}
+          <a
+            className="projectDeploy"
+            href="https://mohamed-ashraf7106.github.io/Game"
+            target="_blank"
           >
-            <li>
-              <img src={require("../assets/html.png")} />
-            </li>
-            <li>
-              <img src={require("../assets/tailwind.png")} />
-            </li>
-            <li>
-              <img src={require("../assets/react.png")} />
-            </li>
-          </ul>
-          <a className="projectDeploy" href="https://mohamed-ashraf7106.github.io/socialapp" target="_blank">Project </a>
-          <a className="projectCode" href="https://github.com/mohamed-ashraf7106/socialapp" target="_blank">Project Code</a>
+            Project{" "}
+          </a>
+          <a
+            className="projectCode"
+            href="https://github.com/mohamed-ashraf7106/Game"
+            target="_blank"
+          >
+            Project Code
+          </a>
         </div>
         <div className="project">
           <h3>E-commerce site</h3>
@@ -163,9 +161,97 @@ export default function Home() {
               <img src={require("../assets/js.png")} />
             </li>
           </ul>
-          <a className="projectDeploy" href="https://mohamed-ashraf7106.github.io/e-commerce" target="_blank">Project </a>
-          <a className="projectCode" href="https://github.com/mohamed-ashraf7106/e-commerce" target="_blank">Project Code</a>
+          <a
+            className="projectDeploy"
+            href="https://mohamed-ashraf7106.github.io/e-commerce"
+            target="_blank"
+          >
+            Project{" "}
+          </a>
+          <a
+            className="projectCode"
+            href="https://github.com/mohamed-ashraf7106/e-commerce"
+            target="_blank"
+          >
+            Project Code
+          </a>
         </div>
+        <div className="project">
+          <h3>Socialmedia app</h3>
+          <p>Its an Socialmedia site with a shorts page</p>
+          <img src={require("../assets/todo.png")} />
+          <h3>Used</h3>
+          <ul
+            className="tech"
+            style={{
+              display: "flex",
+            }}
+          >
+            <li>
+              <img src={require("../assets/html.png")} />
+            </li>
+            <li>
+              <img src={require("../assets/css.png")} />
+            </li>
+            <li>
+              <img src={require("../assets/react.png")} />
+            </li>
+            <li>
+              <img src={require("../assets/redux.png")} />
+            </li>
+          </ul>
+          <a
+            className="projectDeploy"
+            href="https://mohamed-ashraf7106.github.io/todo"
+            target="_blank"
+          >
+            Project{" "}
+          </a>
+          <a
+            className="projectCode"
+            href="https://github.com/mohamed-ashraf7106/todo"
+            target="_blank"
+          >
+            Project Code
+          </a>
+        </div>
+        <div className="project">
+          <h3>Socialmedia app</h3>
+          <p>Its an Socialmedia site with a shorts page</p>
+          <img src={require("../assets/social.png")} />
+          <h3>Used</h3>
+          <ul
+            className="tech"
+            style={{
+              display: "flex",
+            }}
+          >
+            <li>
+              <img src={require("../assets/html.png")} />
+            </li>
+            <li>
+              <img src={require("../assets/tailwind.png")} />
+            </li>
+            <li>
+              <img src={require("../assets/react.png")} />
+            </li>
+          </ul>
+          <a
+            className="projectDeploy"
+            href="https://mohamed-ashraf7106.github.io/socialapp"
+            target="_blank"
+          >
+            Project{" "}
+          </a>
+          <a
+            className="projectCode"
+            href="https://github.com/mohamed-ashraf7106/socialapp"
+            target="_blank"
+          >
+            Project Code
+          </a>
+        </div>
+
         <div className="project">
           <h3>Loan form</h3>
           <p>Its a loan form using react</p>
@@ -187,12 +273,27 @@ export default function Home() {
               <img src={require("../assets/react.png")} />
             </li>
           </ul>
-          <a className="projectDeploy" href="https://mohamed-ashraf7106.github.io/react-loan" target="_blank">Project </a>
-          <a className="projectCode" href="https://github.com/mohamed-ashraf7106/react-loan" target="_blank">Project Code</a>
+          <a
+            className="projectDeploy"
+            href="https://mohamed-ashraf7106.github.io/react-loan"
+            target="_blank"
+          >
+            Project{" "}
+          </a>
+          <a
+            className="projectCode"
+            href="https://github.com/mohamed-ashraf7106/react-loan"
+            target="_blank"
+          >
+            Project Code
+          </a>
         </div>
         <div className="project">
           <h3>Simple site</h3>
-          <p>Simple site with no js as i haven't learned it at the time i was making it</p>
+          <p>
+            Simple site with no js as i haven't learned it at the time i was
+            making it
+          </p>
           <img src={require("../assets/temp4.png")} />
           <h3>Used</h3>
           <ul
@@ -208,10 +309,22 @@ export default function Home() {
               <img src={require("../assets/css.png")} />
             </li>
           </ul>
-          <a className="projectDeploy" href="https://mohamed-ashraf7106.github.io/tempate" target="_blank">Project </a>
-          <a className="projectCode" href="https://github.com/mohamed-ashraf7106/tempate" target="_blank">Project Code</a>
+          <a
+            className="projectDeploy"
+            href="https://mohamed-ashraf7106.github.io/tempate"
+            target="_blank"
+          >
+            Project{" "}
+          </a>
+          <a
+            className="projectCode"
+            href="https://github.com/mohamed-ashraf7106/tempate"
+            target="_blank"
+          >
+            Project Code
+          </a>
         </div>
-        <div style={{width:"100%"}} className="project">
+        <div style={{ width: "100%" }} className="project">
           <p>this portfolio is made using</p>
           <ul
             className="tech"
@@ -229,12 +342,24 @@ export default function Home() {
               <img src={require("../assets/react.png")} />
             </li>
           </ul>
-          <a className="projectCode" href="https://github.com/mohamed-ashraf7106/portfolio" target="_blank">Project Code</a>
+          <a
+            className="projectCode"
+            href="https://github.com/mohamed-ashraf7106/portfolio"
+            target="_blank"
+          >
+            Project Code
+          </a>
         </div>
-          <a className="resume" href="https://drive.google.com/file/d/1ZV_Qn4c4rD9J2VN-9yV5Pd_OC7F6paLP/view?usp=drive_link" target="_blank">Resume</a>
+        <a
+          className="resume"
+          href="https://drive.google.com/file/d/13M8k-CCPCf_Ptn78xkjd02VHXEg_Ooda/view?usp=sharing"
+          target="_blank"
+        >
+          Resume
+        </a>
       </div>
-      <div className="contacthome" style={{background:"#222"}}>
-      <Contact></Contact>
+      <div className="contacthome" style={{ background: "#222" }}>
+        <Contact></Contact>
       </div>
     </>
   );
