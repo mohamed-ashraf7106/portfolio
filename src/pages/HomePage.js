@@ -177,6 +177,45 @@ export default function Home() {
           </a>
         </div>
         <div className="project">
+          <h3>E-commerce site</h3>
+          <p>Its an e-commerce site with a cart and sliders</p>
+          <img src={require("../assets/shop-2.png")} />
+          <h3>Used</h3>
+          <ul
+            className="tech"
+            style={{
+              display: "flex",
+            }}
+          >
+            <li>
+              <img src={require("../assets/html.png")} />
+            </li>
+            <li>
+              <img src={require("../assets/tailwind.png")} />
+            </li>
+            <li>
+              <img src={require("../assets/react.png")} />
+            </li>
+            <li>
+              <img src={require("../assets/redux.png")} />
+            </li>
+          </ul>
+          <a
+            className="projectDeploy"
+            href="https://mohamed-ashraf7106.github.io/e-commerce-2"
+            target="_blank"
+          >
+            Project{" "}
+          </a>
+          <a
+            className="projectCode"
+            href="https://github.com/mohamed-ashraf7106/e-commerce-2"
+            target="_blank"
+          >
+            Project Code
+          </a>
+        </div>
+        <div className="project">
           <h3>Socialmedia app</h3>
           <p>Its an Socialmedia site with a shorts page</p>
           <img src={require("../assets/todo.png")} />
